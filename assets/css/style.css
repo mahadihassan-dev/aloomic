@@ -64,6 +64,8 @@ body {
 
 .banner_content {
     position: relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .banner_content::before {
