@@ -1,0 +1,29 @@
+/* Header Main CSS Start */
+
+.hedear_wrapper {
+    height: 80px;
+    line-height: 80px;
+}
+
+.header_wrapper_container {
+    width: 1240px;
+    margin: auto;
+}
+
+.header_row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.header_leftCol {
+    width: 50%;
+}
+
+.header_rightCol {
+    width: 50%;
+    text-align: right;
+}
+
+
+/* Header Main CSS End */

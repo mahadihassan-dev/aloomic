@@ -1,0 +1,104 @@
+/* 
+
+    Theme Name: Aloomic
+    Designed and Developed by: Mahadi Hassan
+    Version: 1.0
+
+*/
+
+
+/* Import CSS Varriables */
+
+@import url(../css/varriables/import.css);
+
+/* Font Import */
+
+
+/*
+    font-family: 'Epilogue', sans-serif;
+    font-family: 'Playfair Display', serif;
+*/
+
+@import url(../font/font.css);
+
+/* Reset CSS Start */
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none !important;
+}
+
+a,
+a:hover {
+    text-decoration: none !important;
+}
+
+body {
+    background: #000000 !important;
+}
+
+
+/* Reset CSS End */
+
+
+/* 
+
+    Home Page = Index.html Main Page CSS Start
+
+*/
+
+
+/* Banner Section Start */
+
+.hero_banner {
+    height: 650px;
+}
+
+.banner_container {
+    width: 1240px;
+    margin: auto;
+}
+
+.banner_content {
+    position: relative;
+}
+
+.banner_content::before {
+    position: absolute;
+    content: url(../images/banner_title_after.png);
+    top: 0;
+    left: 0;
+}
+
+.bannerTitle {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 94px;
+    color: #FCFCFC;
+    text-transform: uppercase;
+}
+
+.bannerSubTitle {
+    font-size: 94px;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    text-transform: uppercase;
+    background: #FCFCFC;
+    background: -webkit-linear-gradient(to right, #FCFCFC 0%, #FCFCFC00 100%);
+    background: -moz-linear-gradient(to right, #FCFCFC 0%, #FCFCFC00 100%);
+    background: linear-gradient(to right, #FCFCFC 0%, #FCFCFC00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* Banner Section End */
+
+
+/* 
+
+    Home Page = Index.html Main Page CSS End
+
+*/

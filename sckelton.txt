@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta Tags For SEO -->
+    <meta name="description" content="Aloomic | HTML Template for Portfolio. This Template designed and Developed by Mahadi Hassan. This Template was Designed in Figma.">
+    <meta name="keywords" content="Aloomic, Mahadi Hassan, Aim Sys Tech, aimsystech, Themeforest, Front Developer, Web Designer, Web Developer, HTML Template, HTML CSS Developer, Full Stack Developer">
+    <!-- Site Title -->
+    <title>Aloomic | HTML Template</title>
+    <!-- Site Favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon" />
+    <!-- Core CSS Style -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- Core Responsive CSS Style -->
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <!-- Bootstrap 4.6v -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+</head>
+
+<body>
+
+    <!-- Javascript -->
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-migrate.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/popper.min.js"></script>
+    <script type="text/javascript" src="assets/js/aos.min.js"></script>
+    <script type="text/javascript" src="assets/js/6332f77505.js"></script>
+    <script type="text/javascript" src="assets/js/fontawesome.min.js"></script>
+    <script type="text/javascript" src="assets/js/mixitup.min.js"></script>
+    <script type="text/javascript" src="assets/js/slick.min.js"></script>
+    <script type="text/javascript" src="assets/js/wow.min.js"></script>
+    <script type="text/javascript" src="assets/js/venobox.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+
+</html>

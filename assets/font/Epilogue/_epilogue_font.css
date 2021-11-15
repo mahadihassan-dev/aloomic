@@ -1,0 +1,116 @@
+/*====================
+Epilogue - Font Import 
+======================*/
+
+
+/* 
+
+    font-family: 'Epilogue', sans-serif;
+
+*/
+
+
+/* Black - 900 */
+
+@font-face {
+    font-family: 'Epilogue', sans-serif;
+    src: url(Epilogue-Black.ttf);
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+/* Extra Bold - 800 */
+
+@font-face {
+    font-family: 'Epilogue', sans-serif;
+    src: url(Epilogue-ExtraBold.ttf);
+    font-weight: 800;
+    font-style: normal;
+}
+
+
+/* Bold - 700 */
+
+@font-face {
+    font-family: 'Epilogue', sans-serif;
+    src: url(Epilogue-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+/* Semi Bold - 600 */
+
+@font-face {
+    font-family: 'Epilogue', sans-serif;
+    src: url(Epilogue-SemiBold.ttf);
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+/* Medium - 500 */
+
+@font-face {
+    font-family: 'Epilogue', sans-serif;
+    src: url(Epilogue-Medium.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+/* Regular - 400 */
+
+@font-face {
+    font-family: 'Epilogue', sans-serif;
+    src: url(Epilogue-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* Light - 300 */
+
+@font-face {
+    font-family: 'Epilogue', sans-serif;
+    src: url(Epilogue-Light.ttf);
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+/* Extra Light - 200 */
+
+@font-face {
+    font-family: 'Epilogue', sans-serif;
+    src: url(Epilogue-ExtraLight.ttf);
+    font-weight: 200;
+    font-style: normal;
+}
+
+
+/* Thin - 100 */
+
+@font-face {
+    font-family: 'Epilogue', sans-serif;
+    src: url(Epilogue-Thin.ttf);
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+/* Italic Font weight varriable */
+
+@font-face {
+    font-family: 'Epilogue', sans-serif;
+    src: url(Epilogue-Italic-VariableFont_wght.ttf);
+}
+
+
+/* Font weight varriable */
+
+@font-face {
+    font-family: 'Epilogue', sans-serif;
+    src: url(Epilogue-VariableFont_wght.ttf);
+}

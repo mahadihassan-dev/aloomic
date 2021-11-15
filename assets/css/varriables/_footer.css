@@ -1,0 +1,153 @@
+/* Universal CSS */
+
+
+/* Footer Section Start */
+
+.footer_container {
+    width: 1240px;
+    margin: auto;
+}
+
+.footer_row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer_col {
+    width: 20%;
+}
+
+.footerNewsLetterForm {
+    position: relative;
+    height: 60px;
+    color: #fff;
+}
+
+.footerNewsLetterForm::after {
+    position: absolute;
+    content: '';
+    bottom: -30px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #fff;
+}
+
+.footerNewsEmailBox {
+    border: 0;
+    background: 0;
+    color: #fff;
+    width: 215px;
+    height: 60px;
+    line-height: 60px;
+}
+
+.footerNewsEmailBox::placeholder {
+    -webkit-text-stroke: .25px;
+    -webkit-text-stroke-color: #f2f2f2;
+    color: transparent;
+    font-size: 22px;
+}
+
+.footerSubsBtn {
+    border: 0;
+    background: 0;
+}
+
+.footerNav_title,
+.footerServiceNavTitle,
+.footerCompanyAddress_title {
+    font-family: 'Epilogue', sans-serif;
+    color: #FCFCFC54;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.footerAddressItem {
+    color: #fff;
+}
+
+.footerNavItem,
+.footerServiceNavItem {
+    color: #FCFCFC;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    display: block;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+}
+
+.footerNavItem:hover,
+.footerServiceNavItem:hover {
+    color: #fff;
+}
+
+.footerAddressItem {
+    font-size: 15px;
+}
+
+.footer_CopyrightSocialMedia {
+    margin-top: 25px;
+}
+
+.footer_CopyrightSocialMedia_row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer_col_bottom {
+    width: 33.33%;
+    text-align: center;
+}
+
+.footerSocialMediaItem {
+    display: inline-block;
+}
+
+.footerTermsPolicy {
+    display: inline-block;
+}
+
+.footerSocialMediaitem {
+    display: block;
+    width: 115px;
+    height: 20px;
+    line-height: 20px;
+    color: #f2f2f2;
+}
+
+.footertermspolicyItem {
+    display: block;
+    width: 85px;
+    height: 20px;
+    line-height: 20px;
+    color: #f2f2f2;
+}
+
+.footerCopyRight {
+    color: #FCFCFC7A;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    font-style: normal;
+}
+
+
+/* Footer Section End */
+
+
+/* Responsive CSS Start */
+
+
+/* Min 320px - Max 360px */
+
+@media Only screen and (min-width: 320px) and (max-width: 360px) {
+    /* Footer CSS Will be Here */
+}
+
+
+/* Responsive CSS End */

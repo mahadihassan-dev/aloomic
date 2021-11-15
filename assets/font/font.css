@@ -1,0 +1,25 @@
+/*====================
+Epilogue - Font Import 
+======================*/
+
+
+/* 
+
+    font-family: 'Epilogue', sans-serif;
+
+*/
+
+@import url(Epilogue/_epilogue_font.css);
+
+/*============================
+Playfair Display - Font Import 
+==============================*/
+
+
+/* 
+
+    font-family: 'Playfair Display', serif;
+
+*/
+
+@import url(Playfair_Display/_playfair_display_font.css);
