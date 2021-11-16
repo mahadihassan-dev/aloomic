@@ -64,15 +64,15 @@ body {
 
 .banner_content {
     position: relative;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
 
 .banner_content::before {
     position: absolute;
     content: url(../images/banner_title_after.png);
-    top: 0;
-    left: 0;
+    top: 100px;
+    left: -70px;
 }
 
 .bannerTitle {
@@ -95,8 +95,25 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
+a.bannerButton {
+    position: absolute;
+    right: 300px;
+    bottom: -75px;
+}
+
 
 /* Banner Section End */
+
+
+/* Watch Reel Section Start */
+
+.reel_container {
+    width: 1240px;
+    margin: auto;
+}
+
+
+/* Watch Reel Section End */
 
 
 /* 
