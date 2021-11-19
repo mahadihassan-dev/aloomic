@@ -112,8 +112,226 @@ a.bannerButton {
     margin: auto;
 }
 
+.reel_showImage {
+    position: relative;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.reelVideoPlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.reelVideoPlay i {
+    display: block;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.38);
+    color: #fff;
+    margin: auto;
+    border-radius: 50%;
+    font-size: 26px;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    backdrop-filter: blur(3px);
+    margin-top: 165px;
+}
+
+.reel_sectionTitle {
+    position: relative;
+}
+
+.reel_sectionTitle::before {
+    position: absolute;
+    content: url(../images/reel_sectionTitleBefore.png);
+    top: -35px;
+    left: -45px;
+}
+
+.reel_sectionTitle h2 {
+    font-size: 56px;
+}
+
+.reelSectionTitle_primary {
+    color: #FCFCFC;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 400;
+}
+
+.reelSectionTitle_secondary {
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    background: #FCFCFC;
+    background: -webkit-linear-gradient(to right, #FCFCFC 0%, #FCFCFC00 30%);
+    background: -moz-linear-gradient(to right, #FCFCFC 0%, #FCFCFC 30%);
+    background: linear-gradient(to right, #FCFCFC 0%, #FCFCFC00 30%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 
 /* Watch Reel Section End */
+
+
+/* Service Card Section Start */
+
+.service_wrapper {
+    margin-top: 260px;
+}
+
+.service_container {
+    width: 1280px;
+    margin: auto;
+}
+
+.service_row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.serviceCardPrimarycol {
+    width: 50%;
+    /* padding: 0px 75px; */
+}
+
+.ServiceCardPrimaryCol-2 {
+    margin-top: 50px;
+}
+
+.service_card {
+    width: 490px;
+    height: 378px;
+    position: relative;
+    transition: all linear .5s;
+}
+
+.cardHover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgb(0 0 0 / 0%) 0%, rgb(0 0 0 / 90%) 100%);
+    padding: 0px 30px;
+    transition: all linear .5s;
+}
+
+.cardHover:hover {
+    background: linear-gradient(180deg, rgb(0 0 0 / 0%) 0%, rgb(0 0 0 / 100%) 100%);
+}
+
+.cardCategorySmall {
+    color: rgba(252, 252, 252, 0.59);
+    margin-top: 300px;
+    font-family: 'Epilogue';
+    font-weight: 400;
+    font-size: 14px;
+    display: block;
+}
+
+.cardTitle {
+    font-family: 'Epilogue';
+    font-size: 22px;
+    font-weight: 400;
+    color: rgba(252, 252, 252, 1);
+}
+
+.card-1,
+.card-3 {
+    margin-left: 132px;
+}
+
+.card-2,
+.card-4 {
+    margin-left: 18px;
+}
+
+.card-3,
+.card-4 {
+    margin-top: 50px;
+}
+
+
+/* Service Card Section End */
+
+
+/* Our Client Section Start */
+
+.clientsWrapper {
+    background: #fff;
+    padding-top: 170px;
+    padding-bottom: 170px;
+    margin-top: 200px;
+}
+
+.clientsContainer {
+    width: 1280px;
+    margin: auto;
+}
+
+.clientsSectionTitle {
+    text-align: center;
+}
+
+.clientSectionTitle {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 400;
+    font-size: 54px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 1);
+    position: relative;
+}
+
+.clientSectionTitle::before {
+    position: absolute;
+    content: url(../images/client_title_after.png);
+    top: -35px;
+    left: 47%;
+    transform: translate(-50%, -50%);
+}
+
+.client_titleStyleText {
+    font-family: 'Playfair Display';
+    background: linear-gradient(30deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 116.95%);
+    background: -webkit-linear-gradient(30deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 116.95%);
+    background: -moz-linear-gradient(30deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 116.95%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ClientSectionDetail {
+    padding: 0px 400px;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+}
+
+.client_logoSlider {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.clientLogo {
+    width: 20%;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+}
+
+
+/* Our Client Section End */
 
 
 /* 
